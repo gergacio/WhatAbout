@@ -13,7 +13,7 @@
 <!-- * [License](#license) -->
 
 ## General Information
-- WhatAbout is educational app.
+- WhatAbout is an educational app.
 
 ## Technologies Used
 - React - v18.2.0
