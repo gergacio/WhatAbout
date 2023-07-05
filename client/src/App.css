@@ -1,13 +1,12 @@
 .App {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   gap: 2rem;
   font-family: monospace;
   font-size: 1rem;
   border: 1px solid green;;
-
 }
 .nav {
   border: 1px solid peru;
@@ -17,19 +16,37 @@
   font-size: smaller;
   font-family: monospace;
 }
+.search_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
+
+}
 .content {
-  border: 1px solid red;
+ 
+  background-color: white;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  font-size: small;
+  font-weight: bold;
+  width: auto;
+  padding: 1rem;
+  margin: 1rem;
 }
 .search {
-  border: 1px solid blueviolet;
+
+  padding: 1rem;
+  margin: 1rem;
 }
 .App input {
   margin-top: 1rem;
-  width: 20rem;
   height: 2rem;
   background-color: transparent;
   border: 0px solid;
   padding-left: .5rem;
+  width: 35%;
 }
 .input:hover {
   background-color: transparent;

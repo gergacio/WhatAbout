@@ -7,37 +7,43 @@ function App() {
   let a = "";
  
   return (
-    <div className="App">
-      <div className='nav'>
-        {JSONDATA.map((val, key) => {
-          return <div key={key}>{val.question}</div>
-        })}
-      </div>
+    <div className='App'>
+           <div className='search'>
+            <h4>What About <input type="text" placeholder="...?" onChange={ event => {setSearchTerm(event.target.value)}}></input></h4>
+          </div>
 
-      <div>
-      <div className='search'>
- 
- <h4>What About <input type="text" placeholder="..." onChange={ event => {setSearchTerm(event.target.value)}}></input></h4>
-</div>
-   
-      <div className='content'>
-   
-      {JSONDATA
-        .filter((val) => {
-          if(searchTerm === ""){
-           
-            return val
-          }else if(val.question.toLowerCase().includes(searchTerm.toLowerCase())){
-             a = val.answer;
-            return val;
-          }
-        })
-        .map((val,key) => {
-          
-        return <div className="user" key="key">{val.question}</div> 
-      })}
-      </div>
-      <div>{a}</div>
+  
+       <div className='search_container'>
+      
+     
+
+          <div>
+          <div className='content'>
+      
+              {JSONDATA
+                .filter((val) => {
+                  if(searchTerm === ""){
+                  
+                    return val
+                  }else if(val.question.toLowerCase().includes(searchTerm.toLowerCase())){
+                    a = val.answer;
+                    return val;
+                  }
+                })
+                .map((val,key) => {
+                  
+                return <div className="user" key="key">{val.question}</div> 
+              })} 
+         </div>
+
+         <div>{a}</div>
+
+          </div>
+       
+      
+    
+        
+       
    
     
       </div>

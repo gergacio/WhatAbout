@@ -1,47 +1,123 @@
 [
   {
-    "question": "JS",
-    "answer": "JavaScript is not Java"
+    "question": "Internet",
+    "answer": "Global system of interconnected computer networks that uses the Internet protocol suite (TCP/IP) to communicate between networks and devices."
+  },
+
+  {
+    "question": "World Wide Web",
+    "answer": "Information system enabling information to be shared over the Internet."
   },
   {
-    "question": "React",
-    "answer": " is JS library"
+    "question": "JavaScript",
+    "answer": "Programming language that is one of the core technologies of the World Wide Web."
   },
   {
-    "question": "Node",
-    "answer": " is JS runtime"
+    "question": "Values",
+    "answer": "Values ..."
   },
   {
-    "question": "Data Type",
-    "answer": " is ..."
+    "question": "Operations",
+    "answer": "Operations ..."
   },
   {
-    "question": "Conditional Statement",
-    "answer": " is ..."
+    "question": "Types",
+    "answer": "Types: ..."
   },
   {
-    "question": "Loop",
-    "answer": "Loop is ..."
+    "question": "Variables",
+    "answer": "Variables: ..."
   },
   {
-    "question": "Function",
-    "answer": " is ..."
+    "question": "Expressions",
+    "answer": "Expressions: ..."
   },
   {
-    "question": "Functional Programming",
-    "answer": " is ..."
+    "question": "Statements",
+    "answer": "Statements: ..."
   },
   {
-    "question": "OOP",
-    "answer": " is ..."
+    "question": "Conditions",
+    "answer": "Conditions: ..."
   },
   {
-    "question": "String",
-    "answer": " is ..."
+    "question": "Loops",
+    "answer": "Loops: ..."
   },
   {
-    "question": "Array",
-    "answer": " is ..."
+    "question": "Functions",
+    "answer": "Functions: ..."
+  },
+  {
+    "question": "Primitive Types",
+    "answer": "Primitive Types: ..."
+  },
+  {
+    "question": "NaN",
+    "answer": "NaN: ..."
+  },
+  {
+    "question": "new",
+    "answer": "new: ..."
+  },
+  {
+    "question": "Coersion",
+    "answer": "Coersion: ..."
+  },
+  {
+    "question": "Booleans",
+    "answer": "Booleans: ..."
+  },
+  {
+    "question": "Equality",
+    "answer": "Equality: ..."
+  },
+  {
+    "question": "Scope",
+    "answer": ": ..."
+  },
+  {
+    "question": "Undefined",
+    "answer": "Undefined: ..."
+  },
+  {
+    "question": "Undeclared",
+    "answer": "Undeclared: ..."
+  },
+  {
+    "question": "Function Expressions",
+    "answer": "Function Expressions: ..."
+  },
+  {
+    "question": "IIFE",
+    "answer": "IIFE: ..."
+  },
+  {
+    "question": "Block Scoping",
+    "answer": "Block Scoping: ..."
+  },
+  {
+    "question": "Closure",
+    "answer": "Closure: ..."
+  },
+  {
+    "question": "this",
+    "answer": "this: ..."
+  },
+  {
+    "question": "Prototypes",
+    "answer": "Prototypes: ..."
+  },
+  {
+    "question": "Class",
+    "answer": "Class: ..."
   }
+
+
+
+
+
+
+
 
 ]
