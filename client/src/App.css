@@ -1,0 +1,41 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  font-family: monospace;
+  font-size: 1rem;
+  border: 1px solid green;;
+
+}
+.nav {
+  border: 1px solid peru;
+  width: 8rem;
+  background-color: green;
+  color: whitesmoke;
+  font-size: smaller;
+  font-family: monospace;
+}
+.content {
+  border: 1px solid red;
+}
+.search {
+  border: 1px solid blueviolet;
+}
+.App input {
+  margin-top: 1rem;
+  width: 20rem;
+  height: 2rem;
+  background-color: transparent;
+  border: 0px solid;
+  padding-left: .5rem;
+}
+.input:hover {
+  background-color: transparent;
+  border: 0px solid;
+}
+p {
+  margin: 0.5rem;
+  font-size: 1rem;
+}

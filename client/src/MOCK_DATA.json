@@ -1,0 +1,47 @@
+[
+  {
+    "question": "JS",
+    "answer": "JavaScript is not Java"
+  },
+  {
+    "question": "React",
+    "answer": " is JS library"
+  },
+  {
+    "question": "Node",
+    "answer": " is JS runtime"
+  },
+  {
+    "question": "Data Type",
+    "answer": " is ..."
+  },
+  {
+    "question": "Conditional Statement",
+    "answer": " is ..."
+  },
+  {
+    "question": "Loop",
+    "answer": "Loop is ..."
+  },
+  {
+    "question": "Function",
+    "answer": " is ..."
+  },
+  {
+    "question": "Functional Programming",
+    "answer": " is ..."
+  },
+  {
+    "question": "OOP",
+    "answer": " is ..."
+  },
+  {
+    "question": "String",
+    "answer": " is ..."
+  },
+  {
+    "question": "Array",
+    "answer": " is ..."
+  }
+
+]
