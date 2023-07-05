@@ -1,5 +1,5 @@
 # WhatAbout
-> Live demo [_here_](http://theseeker.s3-website.eu-west-2.amazonaws.com/). <!-- If you have the project hosted somewhere, include the link here. -->
+> Live demo [_here_](). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -16,14 +16,12 @@
 - WhatAbout is educational app.
 
 ## Technologies Used
-- MongoDB -  v6.0.1
-- Express.js - v4.18.2
 - React - v18.2.0
-- Node.js - v19.8.1
 - Visual Studio Code - v1.71.2
 - macOS - v12.6
 
 ## Features
+- Search Bar
 
 
 ## Screenshots
@@ -33,10 +31,14 @@
 ## Setup
 
 <!-- Proceed to describe how to install / get started with the project. -->
+- Clone repo git clone https://github.com/gergacio/WhatAbout.git
+- run npm install
+- run yarn run start
 
 
 ## Usage
 <!-- How does one go about using it? -->
+- Simply type your search terms.
 
 
 ## Project Status
