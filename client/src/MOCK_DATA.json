@@ -14,31 +14,38 @@
   },
   {
     "question": "Values",
-    "answer": "Values ..."
+    "answer": "Values represent task we want to accomplish.",
+    "more": "For math we need numbers(41, 3.14), for text we need strings('Hey, !'). Values have an behavior associated with them. Variaty of values we can express in our programs. Primitive values (actual value) vs Non-primitive values (collection of values)"
   },
   {
     "question": "Operations",
-    "answer": "Operations ..."
+    "answer": "Operations which we do with our values.",
+    "more": "3 + 4, !false, 3 < 4 | operands 3, 4 | operators - Assignment(=,+=), Arithmetic(+,-,/,*), Logical(&&,||,^,!), Comparison(<,>,==,!=), Bitwise(|,^,~,<<) "
   },
   {
     "question": "Types",
-    "answer": "Types: ..."
+    "answer": "Type is referring with kind of the value.",
+    "more": "use typeof operator | number | string | boolean | object | undefined"
   },
   {
     "question": "Variables",
-    "answer": "Variables: ..."
+    "answer": "Variables are pointers to place in memory where we store info.",
+    "more": "var firstName = 'Gospodinov' firstName reference place in memory where we store string value Gospodinov."
   },
   {
     "question": "Expressions",
-    "answer": "Expressions: ..."
+    "answer": "Expression is part of Statement",
+    "more": "var age = 1 + ( 2 + 3); - (2 + 3) called expression"
   },
   {
     "question": "Statements",
-    "answer": "Statements: ..."
+    "answer": "Statement is an entire thing finish with ;",
+    "more": "Example - var age = 1 + ( 2 + 3);"
   },
   {
     "question": "Conditions",
-    "answer": "Conditions: ..."
+    "answer": "Conditions refer to decision making.",
+    "more": "if Statement is the primary way to make a decision. if(a > 2){console.log(a)}"
   },
   {
     "question": "Loops",
