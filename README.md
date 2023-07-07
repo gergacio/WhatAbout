@@ -25,7 +25,7 @@
 
 
 ## Screenshots
-![Example screenshot](./screenshots/wa.png)
+![Example screenshot](./screenshots/home.png)
 
 
 ## Setup
