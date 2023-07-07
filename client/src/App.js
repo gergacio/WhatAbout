@@ -40,7 +40,7 @@ function App() {
         <div className="content">
   
           <div className='search shadow'>
-                  <p className="shadow inputText">What About<input className='inputText' type="text" placeholder="..." onChange={ event => {setSearchTerm(event.target.value)}}></input>?</p>
+                  <p className="shadow inputText">What About ...<input className='inputText' type="text" placeholder="" onChange={ event => {setSearchTerm(event.target.value)}}></input>...?</p>
                 </div>
 
                 <div className="definition">{a}</div>
