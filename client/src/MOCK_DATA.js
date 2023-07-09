@@ -47,17 +47,17 @@ export const Data = [
   {
     "question": "Conditions",
     "answer": [" Conditions refer to decision making. if statement is the primary way to make a decision."],
-    "path": ""
+    "path": require("./images/conditions.png")
   },
   {
     "question": "Loops",
-    "answer": [" Loops comes when have set of operation to do multiple times."],
-    "path": ""
+    "answer": [" When have set of operation to do multiple times comes Loops"],
+    "path": require("./images/loops.png")
   },
   {
     "question": "Functions",
     "answer": [" Function is a collection of statements which we want to do multiple time in multiple places."],
-    "path": ""
+    "path": require("./images/functions.png")
   },
   {
     "question": "Primitive data",
