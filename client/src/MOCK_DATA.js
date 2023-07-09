@@ -91,38 +91,33 @@ export const Data = [
   },
   {
     "question": "Scope",
-    "answer": [" Scope: ..."],
-    "path": ""
+    "answer": [" Rules for JavaScript engine when looks for identifiers."],
+    "path": require("./images/scope.png")
   },
   {
-    "question": "Undefined",
-    "answer": [" Undefined: ..."],
-    "path": ""
-  },
-  {
-    "question": "Undeclared",
-    "answer": [" Undeclared: ..."],
-    "path": ""
+    "question": "Emptiness",
+    "answer": [" State of Undeclared and Undefined"],
+    "path": require("./images/emptiness.png")
   },
   {
     "question": "Function Expressions",
-    "answer": [" Function Expressions: ..."],
-    "path": ""
+    "answer": [" Function is a first class citizen in a language.", " Function Expression is a function that can be passed around."],
+    "path": require("./images/funcexp.png")
   },
   {
     "question": "IIFE",
-    "answer": [" IIFE: ..."],
-    "path": ""
+    "answer": [" IIFE (Immediately Invoked Function Expression) make new block of scope."],
+    "path": require("./images/iife.png")
   },
   {
     "question": "Block Scoping",
-    "answer": [" Block Scoping: ..."],
-    "path": ""
+    "answer": [" Way to organise set of variables with own scope instead of IIFE."],
+    "path": require("./images/let.png")
   },
   {
     "question": "Closure",
-    "answer": [" Closure: ..."],
-    "path": ""
+    "answer": [" When a function 'remember' variables outside of it, even if we pass that function around."],
+    "path": require("./images/closure.png")
   },
   {
     "question": "this",
