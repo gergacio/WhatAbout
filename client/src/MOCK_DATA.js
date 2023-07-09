@@ -60,34 +60,34 @@ export const Data = [
     "path": require("./images/functions.png")
   },
   {
-    "question": "Primitive data",
-    "answer": [" Primitive types: ..."],
-    "path": ""
+    "question": "Primitive data type",
+    "answer": [" This is the predefined data type that is provided by JavaScript for different usages."," These are also known as the in-built data types."],
+    "path": require("./images/primitives.png")
   },
   {
     "question": "NaN",
-    "answer": [" NaN: ..." ],
-    "path": ""
+    "answer": [ "NaN represents the result of an invalid math operation.", " NaN is invalid number." ],
+    "path": require("./images/nan.png")
   },
   {
     "question": "new",
-    "answer": [" new: ..."],
-    "path": ""
+    "answer": [" Keyword 'new' create object wrapper around build in fundamental objects."],
+    "path": require("./images/new.png")
   },
   {
     "question": "Coersion",
-    "answer": [" Coersion: ..."],
-    "path": ""
+    "answer": [" The way to convert from one type to another called Coersion", " JavaScript do it dynamically."],
+    "path": require("./images/coersion.png")
   },
   {
     "question": "Booleans",
-    "answer": [" Booleans: ..."],
-    "path": ""
+    "answer": [" Biger concept called falsy and truthy."],
+    "path": require("./images/booleans.png")
   },
   {
     "question": "Equality",
-    "answer": [" Equality: ..."],
-    "path": ""
+    "answer": [" Cheking equality with '==' and '==='", "When types same, both opearors do same job."],
+    "path": require("./images/equality.png")
   },
   {
     "question": "Scope",
