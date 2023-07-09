@@ -22,6 +22,11 @@
 
 ## Features
 - Search Bar
+- Basic programming concepts (js).
+- Type and Coersion (js).
+- Scope/Closure (js).
+- Prototypes (js).
+
 
 
 ## Screenshots

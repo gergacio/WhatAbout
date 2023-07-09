@@ -39,12 +39,17 @@ p {
 }
 .definition { 
   border-left: 15px solid turquoise;
-  width: 20rem;
+  width: 80%;
   padding: 1rem;
   color: yellow;
   background-color: black;
 }
-input {border:0;outline:0;}
+input {
+  border:0;
+  outline:0;
+  background-color: black;
+  color: white;
+}
 input:focus {outline:none!important;}
 
 .inputText {
