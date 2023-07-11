@@ -13,7 +13,7 @@
 <!-- * [License](#license) -->
 
 ## General Information
-- WhatAbout is an educational app.
+- WhatAbout is an search-based application.
 
 ## Technologies Used
 - React - v18.2.0
@@ -30,7 +30,7 @@
 
 
 ## Screenshots
-![Example screenshot](./screenshots/home.png)
+![Example screenshot](./screenshots/screenshot.png)
 
 
 ## Setup
