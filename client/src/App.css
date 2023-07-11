@@ -1,55 +1,80 @@
 .App {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: monospace;
-  font-size: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+}
 
-}
-.nav {
-  border: 1px solid peru;
-  width: 8rem;
-  background-color: green;
-  color: whitesmoke;
-  font-size: smaller;
-  font-family: monospace;
-}
 .search_term {
- width: 8rem;
- height: auto;
- position: static;
- font-size: .8rem;
- color: lightgrey;
+ font-size: .6rem;
+ color: darkgray;
+ padding: .5rem;
+ width: 2rem;
+ height: 12rem;
 }
+
 .search {
   padding: 1rem;
-  margin: 1rem;
+  margin-bottom: 2rem;
+  width: 60%;
 }
-p {
-  margin: 0.5rem;
-  font-size: 1rem;
+.search > p {
+  font-size: 3rem;
+  margin: .5rem;
+
 }
+
 .home_img {
   margin: 0;
-  padding: 0;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
+
+.himg {
+
+  margin: 0;
+  padding: 0;
+
+}
+.himg > img {
+  width: 100%;
+}
+
 .shadow {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 }
+
 .definition { 
   border-left: 15px solid turquoise;
-  width: 80%;
+  width: 60%;
+  height: auto;
   padding: 1rem;
+  margin: 1rem;
   color: yellow;
   background-color: black;
 }
+.definition > p {
+  margin: 0.5rem;
+  font-size: 1rem;
+}
+
 input {
   border:0;
   outline:0;
-  background-color: black;
-  color: white;
+  border-left: 15px solid magenta;
+  color: black;
+  width: 100%;
 }
+
+.inputBox {
+  width: 60%;
+}
+
 input:focus {outline:none!important;}
 
 .inputText {
@@ -57,4 +82,13 @@ input:focus {outline:none!important;}
   letter-spacing: 0.4em;
   padding-left: 1rem;
 }
+
+
+
+
+
+
+
+
+
 
