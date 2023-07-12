@@ -5,7 +5,7 @@ let Img = require('./images/home_page.png');
 
 function App() {
   let a = "";
-  let b = "";
+  let b = [];
   const [ searchTerm, setSearchTerm] = useState("");
 
 
@@ -23,13 +23,11 @@ function App() {
 
                     {Data
                       .filter((val) => {
-                        if(searchTerm === ""){
-                        
+                        if(searchTerm === ""){                
                           return val
                         }else if(val.question.toLowerCase().includes(searchTerm.toLowerCase())){
                           a = val.answer;
                           b = val.path;
-      
                           return val;
                         }
                       })
@@ -38,8 +36,6 @@ function App() {
                       return <div className="user" key="key"> {val.question}</div> 
                     })} 
                 </div>   
-         
-
                </div>
          
           {/* search sections */}   
@@ -48,13 +44,13 @@ function App() {
           </div>
         {/* content */}
         <div className="definition">
-         
             <p>{a[0]}</p>
             <p>{a[1]}</p>
+            <div>
+             {b.map((o, i) => <p key={i}>{o}</p>)}
+            </div>
+          
          </div>  
-       
-
-      
         </div>
   );
 }
