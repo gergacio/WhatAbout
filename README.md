@@ -13,7 +13,7 @@
 <!-- * [License](#license) -->
 
 ## General Information
-- WhatAbout is an search-based application.
+- WhatAbout is a search-based application.
 
 ## Technologies Used
 - React - v18.2.0
