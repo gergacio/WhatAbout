@@ -22,7 +22,7 @@ export const Data = [
   {
     "question": "Operations",
     "answer": [" Operation is what we do with our values."],
-    "path": ["", ""]
+    "path": [" Operator is a special symbol used to perform operations on operands(unary, bynary, ternary).", "Operations in JavaScript.", "  arithmetic operations (+, -, *, /, **, %)", "  logical operations (&&, ||, !)", "  bitwise operations (|, ^, ~, <<, >>)", "  comparison operations (==, ===, !=, <, >, <=, >=)", "  assignment operations (=)"]
   },
   {
     "question": "Types",
