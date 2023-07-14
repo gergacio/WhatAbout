@@ -48,8 +48,7 @@ function App() {
             <p>{a[1]}</p>
             <div>
              {b.map((o, i) => <p key={i}>{o}</p>)}
-            </div>
-          
+            </div>     
          </div>  
         </div>
   );
