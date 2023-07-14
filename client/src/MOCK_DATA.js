@@ -16,7 +16,7 @@ export const Data = [
   },
   {
     "question": "Values",
-    "answer": [" Values represent task we want to accomplish.", "Values have an behavior associated with them."],
+    "answer": ["Values represent task we want to accomplish.", "Values have an behavior associated with them."],
     "path": ["Number - 42, 3.14", "String - 'Hey, dude'", "Boolean - true/false", "Array [ 1, 2, 3]", " Object { name: 'Gospodinov', country: 'Bulgaria'} "]
   },
   {
@@ -26,8 +26,10 @@ export const Data = [
   },
   {
     "question": "Types",
-    "answer": [" Type is referring with kind of the value."],
-    "path": ["", ""]
+    "answer": ["Type is referring with kind of the value."],
+    "path": ["DATA TYPES IN JS", "Variables do not have types, values do.", "typeof \"Bulgaria\" // \"string\"", 
+  "typeof true // \"boolean\"", "typeof undefined // \"undefined\"", "typeof { country: \"Bulgaria\" } // \"object\"",
+"typeof null // \"object\"", "typeof [ 1, 2, 3 ] // \"object\""]
   },
   {
     "question": "Variables",
