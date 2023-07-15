@@ -22,19 +22,24 @@ export const Data = [
   {
     "question": "Operations",
     "answer": [" Operation is what we do with our values."],
-    "path": [" Operator is a special symbol used to perform operations on operands(unary, bynary, ternary).", "Operations in JavaScript.", "  arithmetic operations (+, -, *, /, **, %)", "  logical operations (&&, ||, !)", "  bitwise operations (|, ^, ~, <<, >>)", "  comparison operations (==, ===, !=, <, >, <=, >=)", "  assignment operations (=)"]
+    "path": [" Operator is a special symbol used to perform operations on operands(unary, bynary, ternary).", "Operations in JavaScript.", "--------------------","  arithmetic operations (+, -, *, /, **, %)", "  logical operations (&&, ||, !)", "  bitwise operations (|, ^, ~, <<, >>)", "  comparison operations (==, ===, !=, <, >, <=, >=)", "  assignment operations (=)"]
   },
   {
     "question": "Types",
     "answer": ["Type is referring with kind of the value."],
-    "path": ["DATA TYPES IN JS", "Variables do not have types, values do.", "typeof \"Bulgaria\" // \"string\"", 
+    "path": ["DATA TYPES IN JS", "Variables do not have types, values do.", "--------------------","typeof \"Bulgaria\" // \"string\"", 
   "typeof true // \"boolean\"", "typeof undefined // \"undefined\"", "typeof { country: \"Bulgaria\" } // \"object\"",
 "typeof null // \"object\"", "typeof [ 1, 2, 3 ] // \"object\""]
   },
   {
     "question": "Variables",
     "answer": [" Variable is a representation in some place in memory where we store data."],
-    "path": ["", ""]
+    "path": ["var name = \"Gospodinov\";", "// alocate and assign value", "// name will point to some place in memory where OS store value \"Gospodinov\"",
+  "--------------------","var country;", "// alocate (create empty place in memory with name country)", "// assign empty value (\"undefined\")", 
+"country = \"Bulgaria\";", "// assign with string \"Bulgaria\"",
+"--------------------","var bio = [ \"Gospodinov\", \"Bulgaria\" ];",
+"console.log( bio[1] );", "// \"Bulgaria\"",
+"--------------------","some operators working only with variables", "var age = 10;", "age++;","age += 1;", "age; // 12" ]
   },
   {
     "question": "Expressions",

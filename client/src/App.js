@@ -46,9 +46,9 @@ function App() {
         <div className="definition">
             <p>{a[0]}</p>
             <p>{a[1]}</p>
-            <div>
+            <p>
              {b.map((o, i) => <p key={i}>{o}</p>)}
-            </div>     
+            </p>     
          </div>  
         </div>
   );
