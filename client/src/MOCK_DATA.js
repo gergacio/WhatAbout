@@ -42,14 +42,9 @@ export const Data = [
 "--------------------","some operators working only with variables", "var age = 10;", "age++;","age += 1;", "age; // 12" ]
   },
   {
-    "question": "Expressions",
-    "answer": [" Expression is part of entire thing."],
-    "path": ["", ""]
-  },
-  {
-    "question": "Statements",
-    "answer": [" Statement is an entire thing finish with semicolon."],
-    "path": ["", ""]
+    "question": "Statements Expressions",
+    "answer": [" Statement is an entire thing finish with semicolon."," Expression is part of entire thing."],
+    "path": ["var age; // statement", "var age = 33; // statement", "age = 1 + ( age - 1); // statement","const distance = 1 + ( 2 + 18 ); // statement", "--------------------"," 1 // expression", " ( 2 + 18 ) // expression", " 1 + ( 2 + 18 ) // expression"]
   },
   {
     "question": "Conditions",
@@ -107,7 +102,7 @@ export const Data = [
     "path": ["", ""]
   },
   {
-    "question": "Function Expressions",
+    "question": "Function expression",
     "answer": [" Function is a first class citizen in a language.", " Function Expression is a function that can be passed around."],
     "path": ["", ""]
   },
