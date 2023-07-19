@@ -49,7 +49,8 @@ export const Data = [
   {
     "question": "Conditions",
     "answer": [" Conditions refer to decision making. if statement is the primary way to make a decision."],
-    "path": ["", ""]
+    "path": ["var age = 19;", "  var iAm = \"\";", "if ( age < 10 ) {", " iAm = \"kid\";", "} else if ( age >= 10 && age < 20 ) {",
+  " iAm = \"teen\";", "} else {", " iAm = \"adult\";","}" ]
   },
   {
     "question": "Loops",
