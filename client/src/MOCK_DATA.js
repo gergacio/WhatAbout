@@ -55,7 +55,7 @@ export const Data = [
   {
     "question": "Loops",
     "answer": [" When have set of operation to do multiple times comes Loops"],
-    "path": ["", ""]
+    "path": ["for ( let i = 0; i < 10; i++ ) {", "// code block to be executed", "}","// init var before loop starts ( let i = 0 )", "// defines the condition for the loop to run ( i < 10 )", "// ( i++ ) each time the code block in the loop has been executed", "--------------------","for ( let student of students ) {", "// code block to be executed", "}", "--------------------","while ( condition ) {", "// code block to be executed", "}", "--------------------","do {", "// code block to be executed", " }", "while ( condition )"]
   },
   {
     "question": "Functions",
