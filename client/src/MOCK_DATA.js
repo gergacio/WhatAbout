@@ -60,17 +60,12 @@ export const Data = [
   {
     "question": "Functions",
     "answer": [" Function is a collection of statements which we want to do multiple time in multiple places."],
-    "path": ["", ""]
-  },
-  {
-    "question": "Primitive data type",
-    "answer": [" This is the predefined data type that is provided by JavaScript for different usages."," These are also known as the in-built data types."],
-    "path": ["", ""]
+    "path": ["// procedure - do something, no return", "function greet ( student ) {", "console.log( student. name );", "}", "--------------------","// method - get arg, give value back", "function add ( a, b ) {", " return a + b;", "}", "var resulr = add(3, 2);"]
   },
   {
     "question": "NaN",
     "answer": [ "NaN represents the result of an invalid math operation.", " NaN is invalid number." ],
-    "path": ["", ""]
+    "path": ["var greeting = \"HTMLBodyElement, hi!\";", "var result = greeting / 2;", "result; // NaN", "Number.isNaM(result); // true - has a NaN value (number value)", "Number.isNaN(greeting); // false - (string value)"]
   },
   {
     "question": "new",
