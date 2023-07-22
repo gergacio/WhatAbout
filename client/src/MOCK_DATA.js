@@ -22,12 +22,12 @@ export const Data = [
   {
     "question": "Operations",
     "answer": [" Operation is what we do with our values."],
-    "path": [" Operator is a special symbol used to perform operations on operands(unary, bynary, ternary).", "Operations in JavaScript.", "--------------------","  arithmetic operations (+, -, *, /, **, %)", "  logical operations (&&, ||, !)", "  bitwise operations (|, ^, ~, <<, >>)", "  comparison operations (==, ===, !=, <, >, <=, >=)", "  assignment operations (=)"]
+    "path": [" Operator is a special symbol used to perform operations on operands(unary, bynary, ternary).", "Operations in JavaScript.", "----------------------------","  arithmetic operations (+, -, *, /, **, %)", "  logical operations (&&, ||, !)", "  bitwise operations (|, ^, ~, <<, >>)", "  comparison operations (==, ===, !=, <, >, <=, >=)", "  assignment operations (=)"]
   },
   {
     "question": "Types",
     "answer": ["Type is referring with kind of the value."],
-    "path": ["DATA TYPES IN JS", "Variables do not have types, values do.", "--------------------","typeof \"Bulgaria\" // \"string\"", 
+    "path": ["DATA TYPES IN JS", "Variables do not have types, values do.", "----------------------------","typeof \"Bulgaria\" // \"string\"", 
   "typeof true // \"boolean\"", "typeof undefined // \"undefined\"", "typeof { country: \"Bulgaria\" } // \"object\"",
 "typeof null // \"object\"", "typeof [ 1, 2, 3 ] // \"object\""]
   },
@@ -35,16 +35,16 @@ export const Data = [
     "question": "Variables",
     "answer": [" Variable is a representation in some place in memory where we store data."],
     "path": ["var name = \"Gospodinov\";", "// alocate and assign value", "// name will point to some place in memory where OS store value \"Gospodinov\"",
-  "--------------------","var country;", "// alocate (create empty place in memory with name country)", "// assign empty value (\"undefined\")", 
+    "----------------------------","var country;", "// alocate (create empty place in memory with name country)", "// assign empty value (\"undefined\")", 
 "country = \"Bulgaria\";", "// assign with string \"Bulgaria\"",
-"--------------------","var bio = [ \"Gospodinov\", \"Bulgaria\" ];",
+"----------------------------","var bio = [ \"Gospodinov\", \"Bulgaria\" ];",
 "console.log( bio[1] );", "// \"Bulgaria\"",
-"--------------------","some operators working only with variables", "var age = 10;", "age++;","age += 1;", "age; // 12" ]
+"----------------------------","some operators working only with variables", "var age = 10;", "age++;","age += 1;", "age; // 12" ]
   },
   {
     "question": "Statements Expressions",
     "answer": [" Statement is an entire thing finish with semicolon."," Expression is part of entire thing."],
-    "path": ["var age; // statement", "var age = 33; // statement", "age = 1 + ( age - 1); // statement","const distance = 1 + ( 2 + 18 ); // statement", "--------------------"," 1 // expression", " ( 2 + 18 ) // expression", " 1 + ( 2 + 18 ) // expression"]
+    "path": ["var age; // statement", "var age = 33; // statement", "age = 1 + ( age - 1); // statement","const distance = 1 + ( 2 + 18 ); // statement", "----------------------------"," 1 // expression", " ( 2 + 18 ) // expression", " 1 + ( 2 + 18 ) // expression"]
   },
   {
     "question": "Conditions",
@@ -55,12 +55,12 @@ export const Data = [
   {
     "question": "Loops",
     "answer": [" When have set of operation to do multiple times comes Loops"],
-    "path": ["for ( let i = 0; i < 10; i++ ) {", "// code block to be executed", "}","// init var before loop starts ( let i = 0 )", "// defines the condition for the loop to run ( i < 10 )", "// ( i++ ) each time the code block in the loop has been executed", "--------------------","for ( let student of students ) {", "// code block to be executed", "}", "--------------------","while ( condition ) {", "// code block to be executed", "}", "--------------------","do {", "// code block to be executed", " }", "while ( condition )"]
+    "path": ["for ( let i = 0; i < 10; i++ ) {", "// code block to be executed", "}","// init var before loop starts ( let i = 0 )", "// defines the condition for the loop to run ( i < 10 )", "// ( i++ ) each time the code block in the loop has been executed", "----------------------------","for ( let student of students ) {", "// code block to be executed", "}", "----------------------------","while ( condition ) {", "// code block to be executed", "}", "----------------------------","do {", "// code block to be executed", " }", "while ( condition )"]
   },
   {
     "question": "Functions",
     "answer": [" Function is a collection of statements which we want to do multiple time in multiple places."],
-    "path": ["// procedure - do something, no return", "function greet ( student ) {", "console.log( student. name );", "}", "--------------------","// method - get arg, give value back", "function add ( a, b ) {", " return a + b;", "}", "var resulr = add(3, 2);"]
+    "path": ["// procedure - do something, no return", "function greet ( student ) {", "console.log( student. name );", "}", "----------------------------","// method - get arg, give value back", "function add ( a, b ) {", " return a + b;", "}", "var resulr = add(3, 2);"]
   },
   {
     "question": "NaN",
@@ -85,7 +85,7 @@ export const Data = [
   {
     "question": "Equality",
     "answer": [" Cheking equality with '==' and '==='", "When types same, both opearors do same job."],
-    "path": ["", ""]
+    "path": ["// operator \"==\" checks value ( loose ) ", "// when values with different data types allows coersion", "3 == \"3\" // true", "----------------------------", "// operator \"===\" checks value and type ( strict )", "// when values with different types disallows coersion", "3 === \"3\" // false", "// Make data"]
   },
   {
     "question": "Scope",
