@@ -75,7 +75,7 @@ export const Data = [
   {
     "question": "Coersion",
     "answer": [" The way to convert from one type to another called Coersion", " JavaScript do it dynamically."],
-    "path": ["", ""]
+    "path": ["----------------------------","// number to string (with string concatenation)", "let msg1 = \"They are\";", "let msg2 = \" basketball players.\";", "let num = 10;", "let fullMsg = msg1 + num + msg2;","----------------------------", "// number to string ( interpolation with + \" \")", "fullMsg = `They are ${num + \"\"} basketball players.`;", "----------------------------","// string to number", "// all from outside world come into js program as a string", "Number(studentInputElement.value);" ]
   },
   {
     "question": "Booleans",
