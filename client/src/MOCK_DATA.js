@@ -75,12 +75,12 @@ export const Data = [
   {
     "question": "Coersion",
     "answer": [" The way to convert from one type to another called Coersion", " JavaScript do it dynamically."],
-    "path": ["", ""]
+    "path": ["----------------------------","// number to string (with string concatenation)", "let msg1 = \"They are\";", "let msg2 = \" basketball players.\";", "let num = 10;", "let fullMsg = msg1 + num + msg2;","----------------------------", "// number to string ( interpolation with + \" \")", "fullMsg = `They are ${num + \"\"} basketball players.`;", "----------------------------","// string to number", "// all from outside world come into js program as a string", "Number(studentInputElement.value);" ]
   },
   {
     "question": "Booleans",
     "answer": [" Biger concept called falsy and truthy."],
-    "path": ["", ""]
+    "path": ["// When try to convert value in boolean result in true / false base on lookup.", "// Test clause automatically convert value into boolean.", "// JS falsy / truthy list.", "----------------------------","// Falsy values.", "// \"\", 0 and -0, NaN, false, undefined", "----------------------------","// Truthy values.", "// Everything else we try to convert into boolean we called truthy values.", "// \"string\", 23, { me: \"Georgi\" }, function(){}, etc."]
   },
   {
     "question": "Equality",
