@@ -80,7 +80,7 @@ export const Data = [
   {
     "question": "Booleans",
     "answer": [" Biger concept called falsy and truthy."],
-    "path": ["", ""]
+    "path": ["// When try to convert value in boolean result in true / false base on lookup.", "// Test clause automatically convert value into boolean.", "// JS falsy / truthy list.", "----------------------------","// Falsy values.", "// \"\", 0 and -0, NaN, false, undefined", "----------------------------","// Truthy values.", "// Everything else we try to convert into boolean we called truthy values.", "// \"string\", 23, { me: \"Georgi\" }, function(){}, etc."]
   },
   {
     "question": "Equality",
