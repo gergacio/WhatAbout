@@ -90,7 +90,7 @@ export const Data = [
   {
     "question": "Scope",
     "answer": [" Rules for JavaScript engine when looks for identifiers."],
-    "path": ["", ""]
+    "path": ["var teacher = \"Gospodinov\";", "----------------------------", "function msg() {", "teacher = \"Ozzy\";", "topic = \"JavaScript\";", "console.log(\"Hey, ...\");", "}", "----------------------------","msg(); // \"Hey, ...\"", "teacher; // \"Ozzy\" No definition for teacher in msg, so go outer scope and find teacher assign with \"Ozzy\".", "topic; // \"React\". No strict mode, JS create and assign variable in global scope."]
   },
   {
     "question": "Emptiness",
