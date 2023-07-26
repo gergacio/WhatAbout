@@ -95,7 +95,7 @@ export const Data = [
   {
     "question": "Emptiness",
     "answer": [" State of Undeclared and Undefined"],
-    "path": ["", ""]
+    "path": ["----------------------------","// State of Undeclared - variable never been ( JavaScript can't reference it ).", "// State of Undefined - variable been declared with no value ( JavaScript give it value of \"undefined\")."]
   },
   {
     "question": "Function expression",
