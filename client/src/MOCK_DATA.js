@@ -100,7 +100,7 @@ export const Data = [
   {
     "question": "Function expression",
     "answer": [" Function is a first class citizen in a language.", " Function Expression is a function that can be passed around."],
-    "path": ["", ""]
+    "path": ["----------------------------","// Anonymous Function Expressions.", "var clickHandler = function(){};", "----------------------------","// Named Function Expressions.", "var keyHandler = function keyHandler(){}", "----------------------------","// Arrow functions.", "var ids = students.map(student => student.id);", "----------------------------","// Named functions.", "var ids = students.map(function getId(student){", " return student.id;","});"]
   },
   {
     "question": "IIFE",
